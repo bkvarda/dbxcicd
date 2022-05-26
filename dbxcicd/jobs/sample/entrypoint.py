@@ -18,6 +18,7 @@ class SampleJob(Job):
         )
 
         self.logger.info("Sample job finished!")
+        self.logger.info("foo")
 
 
 if __name__ == "__main__":
