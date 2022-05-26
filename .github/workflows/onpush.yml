@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - '**'
+      - '!prod'
     tags-ignore:
       - 'v*' # this tag type is used for release pipelines
 
