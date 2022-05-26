@@ -45,7 +45,6 @@ jobs:
 
       - name: Run job in prod
         id: run_job_in_prod
-        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
         run: | 
           dbx launch --jobs=dbxcicd-sample
 
