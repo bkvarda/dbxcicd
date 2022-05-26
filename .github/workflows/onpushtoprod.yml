@@ -11,7 +11,7 @@ permissions:
 
 
 jobs:
-  release-pipeline:
+  prod-deployment-pipeline:
 
     runs-on: ubuntu-latest
     strategy:
