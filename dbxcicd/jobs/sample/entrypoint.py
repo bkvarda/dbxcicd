@@ -9,7 +9,7 @@ class SampleJob(Job):
         listing = self.dbutils.fs.ls("dbfs:/")
 
         for l in listing:
-            self.logger.info(f"DBFS directory: {l}")
+            self.logger.info(f"DBFS directorya: {l}")
 
         df = self.spark.range(0, 1000)
 
